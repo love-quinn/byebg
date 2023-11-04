@@ -11,7 +11,7 @@ def byebg(input_path, outputpath):
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: python byebg.py <input_path> <output_path>")
+        print("Usage: python byebg.py <input_path> <output_path.png>")
         sys.exit(1)
 
     input_path = sys.argv[1]
